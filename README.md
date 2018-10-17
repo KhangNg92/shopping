@@ -39,37 +39,33 @@ View demo <a href="http://ij-mobile-shop.herokuapp.com/">here</a> or go to "Inst
 
 ### Steps:
 1. Clone repo on your local machine:
-```
 $ git clone https://github.com/ivan3123708/fullstack-shopping-cart.git
-```
 2. Install server-side dependencies:
-```
 $ cd fullstack-shopping-cart
 $ npm install
-```
 3. Install client-side dependencies:
-```
 $ cd client
 $ npm install
-```
 4. In server.js:<br/>
 
 remove line 14,<br/>
 replace mongoDB connection URI with your own, on line 20:<br/>
-```
 mongoose.connect(privates.mongoDBURI); --> to --> mongoose.connect(<Insert your mongoDB connection string here>);
-```
 replace express-session secret on line 27:<br/>
-```
 secret: privates.sessionSecret, --> to --> secret: <Insert your secret string here>,
-```
 6. Build the app
-```
 $ npm run build
-```
 7. Execute the app:<br/>
-```
 $ cd ..
 $ npm run start
-```
 8. App now running on localhost:5000
+
+9. Progress
+
+### Reason why I use these technologies
+
+- Since React.JS, Node.JS, and mongoDB become more popular nowadays so I make this as my main technologies focus
+
+### Trade offs and possible improvements
+
+- I was facing some really hard times to gather up ideas for the code flow, if I have more time I'd use it to improve my CSS customizations. Specifically, using the material-UI

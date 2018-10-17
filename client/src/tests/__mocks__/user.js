@@ -1,7 +1,7 @@
 const user = {
   _id: '123',
-  username: 'John',
-  email: 'john@mail.com',
+  username: 'khang',
+  email: 'khang@mail.com',
   address: '1st street',
   phone: '123 456',
   orders: [

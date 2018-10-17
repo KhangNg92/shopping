@@ -52,7 +52,7 @@ export class Header extends React.Component {
       <div className="header">
         <AppBar 
           className="title"
-          title="MOBILE SHOP"
+          title="KHANG SHOP"
           onTitleClick={() => this.props.history.push('/')}
           showMenuIconButton={false}
           zDepth={0}

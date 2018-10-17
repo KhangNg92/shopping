@@ -15,7 +15,7 @@ export class FiltersList extends React.Component {
     return (
       <div className="filtersList">
         <List>
-          <Subheader className="subheader">Search by:</Subheader>
+          <Subheader className="subheader">List</Subheader>
           <ListItem 
             className="listItem"
             primaryText="Price"

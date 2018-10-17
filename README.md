@@ -39,9 +39,9 @@ View demo <a href="http://ij-mobile-shop.herokuapp.com/">here</a> or go to "Inst
 
 ### Steps:
 1. Clone repo on your local machine:
-$ git clone https://github.com/ivan3123708/fullstack-shopping-cart.git
+$ git clone https://github.com/mkavo92/shopping
 2. Install server-side dependencies:
-$ cd fullstack-shopping-cart
+$ cd shopping
 $ npm install
 3. Install client-side dependencies:
 $ cd client
@@ -53,13 +53,16 @@ replace mongoDB connection URI with your own, on line 20:<br/>
 mongoose.connect(privates.mongoDBURI); --> to --> mongoose.connect(<Insert your mongoDB connection string here>);
 replace express-session secret on line 27:<br/>
 secret: privates.sessionSecret, --> to --> secret: <Insert your secret string here>,
-6. Build the app
+6. Build the app on front-end
+$ cd client
+$ npm run build
+7. Build the app on back-end
+$ cd ..
 $ npm run build
 7. Execute the app:<br/>
-$ cd ..
-$ npm run start
+$ npm run start:dev-full
 8. App now running on localhost:5000
-
+(if missing step 6 the front-end can be reach at localhost:8080)
 9. Progress
 
 ### Reason why I use these technologies

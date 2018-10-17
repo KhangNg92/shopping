@@ -9,6 +9,13 @@ Shopping cart app build with MERN stack and using RESTful API design. Responsive
 You can get and view the list of all products from the API, register, add products to cart, remove specific product or empty entire cart, make order...
 
 View demo <a href="http://ij-mobile-shop.herokuapp.com/">here</a> or go to "Installation and Usage" and follow the instructions to install and use.
+### Reason why I use these technologies
+
+- Since React.JS, Node.JS, and mongoDB become more popular nowadays so I make this as my main technologies focus
+
+### Trade offs and possible improvements
+
+- I was facing some really hard times to gather up ideas for the code flow, if I have more time I'd use it to improve my CSS customizations. Specifically, using the material-UI
 
 ## Technologies & Tools
 
@@ -79,12 +86,6 @@ $ npm run start:dev-full
 ```
 9. App now running on localhost:5000
 (if missing step 6 the front-end can be reach at localhost:8080)
+
 10. Progress
 
-### Reason why I use these technologies
-
-- Since React.JS, Node.JS, and mongoDB become more popular nowadays so I make this as my main technologies focus
-
-### Trade offs and possible improvements
-
-- I was facing some really hard times to gather up ideas for the code flow, if I have more time I'd use it to improve my CSS customizations. Specifically, using the material-UI

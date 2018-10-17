@@ -6,7 +6,8 @@
   "author": "Khang Nguyen",
   "license": "ISC",
   "engines": {
-    "node": "8.12.0"
+    "node": "10.10.0",
+    "npm": "6.4.1"
   },
   "scripts": {
     "start:dev": "nodemon server.js",

@@ -25,7 +25,7 @@ exports[`<Header /> renders Header with no user logged correctly 1`] = `
     }
     onTitleClick={[Function]}
     showMenuIconButton={false}
-    title="MOBILE SHOP"
+    title="KHANG SHOP"
     zDepth={0}
   />
   <LoginModal
@@ -261,7 +261,7 @@ exports[`<Header /> renders Header with user logged correctly 1`] = `
     }
     onTitleClick={[Function]}
     showMenuIconButton={false}
-    title="MOBILE SHOP"
+    title="KHANG SHOP"
     zDepth={0}
   />
   <LoginModal

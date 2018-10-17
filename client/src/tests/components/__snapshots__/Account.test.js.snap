@@ -40,13 +40,13 @@ exports[`<Account /> renders Account with user logged correctly 1`] = `
         <b>
           Username: 
         </b>
-        John
+        Khang
       </p>
       <p>
         <b>
           E-mail: 
         </b>
-        john@mail.com
+        khang@mail.com
       </p>
       <p>
         <b>
@@ -155,7 +155,7 @@ exports[`<Account /> renders Account with user logged correctly 1`] = `
       Object {
         "_id": "123",
         "address": "1st street",
-        "email": "john@mail.com",
+        "email": "khang@mail.com",
         "orders": Array [
           Object {
             "dateCreated": 1519512681240,
@@ -171,7 +171,7 @@ exports[`<Account /> renders Account with user logged correctly 1`] = `
           },
         ],
         "phone": "123 456",
-        "username": "John",
+        "username": "Khang",
       }
     }
   />

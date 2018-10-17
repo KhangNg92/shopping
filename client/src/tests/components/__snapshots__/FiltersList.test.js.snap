@@ -9,7 +9,7 @@ exports[`<FiltersList /> renders FiltersList correctly 1`] = `
       className="subheader"
       inset={false}
     >
-      Search by:
+      List
     </Subheader>
     <ListItem
       autoGenerateNestedIndicator={true}

@@ -35,7 +35,7 @@ exports[`<AccountModal /> renders AccountModal correctly 1`] = `
       rows={1}
       type="text"
       underlineShow={true}
-      value="john@mail.com"
+      value="khang@mail.com"
     />
     <br />
     <TextField

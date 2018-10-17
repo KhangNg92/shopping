@@ -59,11 +59,11 @@ $ npm run build
 7. Build the app on back-end
 $ cd ..
 $ npm run build
-7. Execute the app:<br/>
+8. Execute the app:<br/>
 $ npm run start:dev-full
-8. App now running on localhost:5000
+9. App now running on localhost:5000
 (if missing step 6 the front-end can be reach at localhost:8080)
-9. Progress
+10. Progress
 
 ### Reason why I use these technologies
 
